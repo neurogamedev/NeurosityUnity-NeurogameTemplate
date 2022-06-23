@@ -49,10 +49,9 @@ Be sure to check my notes about encryption in the `NotionInterfacer.cs` in the *
 ## To Do
 
 - Fix Logout() warnings stemming from processes being interrupted mid-thread.
-- Check if Builds work in iOS and Android environments.
 
 ## Frequently Asked Questions
 
-**Q: Why are there no questions here?**
+**Q: Can this be used for mobile?**
 
-A: People haven't yet asked me questions to populate this section.
+A: Yes it can. You may have to make your own GUI interface for the Pause menu, but the Starter Assets have ready-to-use mobile UI and GUI. Be ready to open the can of worms that is building for mobile. As an Android user, I can share that you'll be banging your head against the wall to Build your first mobile app from Unity, neurogame or not. Your mileage may vary depending on whether Unity finally decides to properly support Android development. Haven't tried to build for iOS, yet...
