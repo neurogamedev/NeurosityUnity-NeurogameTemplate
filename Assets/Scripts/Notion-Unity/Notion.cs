@@ -39,7 +39,7 @@ namespace Notion.Unity
 
         public async Task<IEnumerable<DeviceInfo>> GetDevices()
         {
-            return await _user.GetDevices();
+            return await _user.GetDevicesSlow();
         }
 
         public async Task<DeviceInfo> GetSelectedDevice()
