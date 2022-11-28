@@ -15,14 +15,14 @@ namespace Notion.Unity
         void OnEnable()
         {
             deviceInterface = FindObjectOfType<NotionInterfacer>();
-            initialPosition = this.transform.localPosition;
+            initialPosition = this.transform.position;
         }
 
         void Bobble()
         {
             if (deviceInterface == null || deviceInterface.IsOnline() == false)
             {
-                this.transform.localPosition = initialPosition;
+                this.transform.position = initialPosition;
                 return;
             }
 
