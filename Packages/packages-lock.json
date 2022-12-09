@@ -11,7 +11,7 @@
       "depth": 0,
       "source": "local-tarball",
       "dependencies": {
-        "com.google.external-dependency-manager": "1.2.171"
+        "com.google.external-dependency-manager": "1.2.175"
       }
     },
     "com.google.firebase.auth": {
@@ -19,7 +19,7 @@
       "depth": 0,
       "source": "local-tarball",
       "dependencies": {
-        "com.google.firebase.app": "9.1.0"
+        "com.google.firebase.app": "10.2.0"
       }
     },
     "com.google.firebase.database": {
@@ -27,7 +27,7 @@
       "depth": 0,
       "source": "local-tarball",
       "dependencies": {
-        "com.google.firebase.auth": "9.1.0"
+        "com.google.firebase.auth": "10.2.0"
       }
     },
     "com.unity.ai.navigation": {
