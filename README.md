@@ -32,7 +32,7 @@ If you're more into design and less into coding, you can find templates ready fo
 I left the Starter Assets folder untouched if you'd like to also use them for your prototypes.
 
 ## Dependencies
-* [Unity 2022.1.5f1](https://unity3d.com/get-unity/download/archive)
+* [Unity 2022.2.0f1](https://unity3d.com/get-unity/download/archive)
 * [Firebase for Unity Authentication](https://developers.google.com/unity/packages#firebase_authentication)
 * [Firebase for Unity Realtime Database](https://developers.google.com/unity/packages#firebase_realtime_database)
 * [Json.NET by jilleJr](https://github.com/jilleJr/Newtonsoft.Json-for-Unity)
@@ -54,4 +54,4 @@ Be sure to check my notes about encryption in the `NotionInterfacer.cs` in the *
 
 **Q: Can this be used for mobile?**
 
-A: Yes it can. You may have to make your own GUI interface for the Pause menu, but the Starter Assets have ready-to-use mobile UI and GUI. Also, you'll have to declare and request relevant permissions for basic functions like saving data. Be ready to open the can of worms that is building for mobile. As an Android user, I can share that you'll be banging your head against the wall to Build your first mobile app from Unity, neurogame or not. Your mileage may vary depending on whether Unity finally decides to properly support Android development. Haven't tried to build for iOS, yet...
+A: Yes it can. Check my example reporsitory for mobile [here](https://github.com/neurogamedev/NeurosityUnity-MobileNeurogameTemplate).
